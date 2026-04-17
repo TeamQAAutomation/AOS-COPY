@@ -1,0 +1,1 @@
+cypress\e2e\AOS_PRODUCTION_Smoketests\Prod_AOSRE-11665_KR_Login_Logout.cy.js

@@ -1,0 +1,24 @@
+cypress\e2e\4-ROW_AOS-RE_rescue_operations\4.2-AOS-RE_additional_tests\AOSRE-5946_RespectivePageLoadedbyopeningofeachMenuunderMyAOStab.cy.js
+cypress\e2e\3-ROW_BMWPAY_payment\3.5-BMWPAY additional test\AOSRE_5955_StartTAB_History.cy.js
+cypress\e2e\4-ROW_AOS-RE_rescue_operations\4.2-AOS-RE_additional_tests\AOSRE-5959_VerifyTheListOfOptionsUnderServiceTab .cy.js
+cypress\e2e\4-ROW_AOS-RE_rescue_operations\4.2-AOS-RE_additional_tests\AOSRE-5960_Verify Service tab.cy.js
+cypress\e2e\1-ROW_AOS-TS_Functional_Tests\1.3_AOS-TS_Additional_tests\AOSRE-5963_DiagnosticsArticles.cy.js
+cypress\e2e\1-ROW_AOS-TS_Functional_Tests\1.3_AOS-TS_Additional_tests\AOSRE-5968_options_under_Help tab.cy.js
+cypress\e2e\1-ROW_AOS-TS_Functional_Tests\1.3_AOS-TS_Additional_tests\AOSRE-5971_Support Request.cy.js
+cypress\e2e\1-ROW_AOS-TS_Functional_Tests\1.3_AOS-TS_Additional_tests\AOSRE-5972_Technical Help Desk.cy.js
+cypress\e2e\1-ROW_AOS-TS_Functional_Tests\1.3_AOS-TS_Additional_tests\AOSRE-5973_Training Enquiry.cy.js
+cypress\e2e\1-ROW_AOS-TS_Functional_Tests\1.3_AOS-TS_Additional_tests\AOSRE-5974_Myrequest.cy.js
+cypress\e2e\8-ROW_AOS_basic_tests\AOSRE-5979_Verify the list of Options under BMW API's.cy.js
+cypress\e2e\2-ROW_B2iUA_Functional_Tests\2.1_B2iUA_Registration_work_flow\AOSRE-6197_Registration.cy.js
+cypress\e2e\2-ROW_B2iUA_Functional_Tests\2.2_B2IUA-Additional_tests\AOSRE-6454_userManagement.cy.js
+cypress\e2e\2-ROW_B2iUA_Functional_Tests\2.2_B2IUA-Additional_tests\AOSRE-6456_Verifying PermissionsTabInMyOrganisationsOption.cy.js
+cypress\e2e\3-ROW_BMWPAY_payment\3.1-BMW PAY direct pay tests\AOSRE-8849 Document research.cy.js
+cypress\e2e\3-ROW_BMWPAY_payment\3.1-BMW PAY direct pay tests\AOSRE-8850 Electrical Diagnosis And Programming.cy.js
+cypress\e2e\4-ROW_AOS-RE_rescue_operations\4.2-AOS-RE_additional_tests\AOSRE-9259_GUIOfTheHomeScreenForAOS1.5.cy.js
+cypress\e2e\2-ROW_B2iUA_Functional_Tests\2.2_B2IUA-Additional_tests\AOSRE-10427_UpdateTheLoggedInUserInformationUnderMyDataPage.cy.js
+cypress\e2e\2-ROW_B2iUA_Functional_Tests\2.2_B2IUA-Additional_tests\AOSRE-10428_ChangeEmailAddressUnderMyDataPage.cy.js
+cypress\e2e\4-ROW_AOS-RE_rescue_operations\4.2-AOS-RE_additional_tests\AOSRE-11775Overview of AOS Portal Landing page.cy.js
+cypress\e2e\4-ROW_AOS-RE_rescue_operations\4.2-AOS-RE_additional_tests\AOSRE-11776 Overview of the Start page.cy.js
+cypress\e2e\3-ROW_BMWPAY_payment\3.5-BMWPAY additional test\AOSRE_6514_Start Tab_DetailedViewOfTheMyInvoicesWithLegalRepresentativeUser.cy.js
+cypress\e2e\2-ROW_B2iUA_Functional_Tests\2.2_B2IUA-Additional_tests\AOSRE-5944_Login_Logout.cy.js
+cypress\e2e\5-ROW_OSMC-functional_tests\AOSRE-5958_Applications.cy.js

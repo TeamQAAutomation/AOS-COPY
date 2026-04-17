@@ -1,0 +1,5 @@
+cypress\e2e\3-ROW_BMWPAY_payment\3.2_BMWPAY_post_pay_tests_Automation_planned_only\AOSRE-11790_Verify_Invoice_for_PostPayment_Discount_DE.cy.js
+cypress\e2e\3-ROW_BMWPAY_payment\3.2_BMWPAY_post_pay_tests_Automation_planned_only\AOSRE-8991_VerifyInvoice_for_PostPayment.cy.js
+cypress\e2e\3-ROW_BMWPAY_payment\3.3-BMWPAY Document handling\AOSRE-9010_Verify_Service_Duration_Refund_Invoice.cy.js
+cypress\e2e\3-ROW_BMWPAY_payment\3.2_BMWPAY_post_pay_tests_Automation_planned_only\AOSRE-8992_Verify_invoice_created_for_an_approved_refund.cy.js
+cypress\e2e\3-ROW_BMWPAY_payment\3.3-BMWPAY Document handling\AOSRE-9040_Verify_Invoice_And_CreditNote_Year.cy.js

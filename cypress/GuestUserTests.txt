@@ -1,0 +1,4 @@
+cypress\e2e\Completed_TESTS\OIDC_TESTS\AOSRE_10102_VerifyPEMSAdapterUnderServiceTab.cy.js
+cypress\e2e\Completed_TESTS\Regression\AOSRE_5971_Support Request.cy.js
+cypress\e2e\Completed_TESTS\Regression\AOSRE_6197_Registration.cy.js
+cypress\e2e\Completed_TESTS\Regression\11785_TestCases\AOSRE_11775Overview of AOS Portal Landing page.cy.js

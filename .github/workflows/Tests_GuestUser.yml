@@ -1,0 +1,68 @@
+name: QA_Login_Issue
+on:
+  workflow_dispatch:
+
+
+jobs:
+  e2e_tests:
+    name: Run End-to-End Tests
+    runs-on: ubuntu-latest
+    environment: ROW_QA
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Debug workspace
+        shell: pwsh
+        run: |
+          pwd
+          dir
+          node --version
+          npm --version
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Read Test Spec File and Run Cypress Tests
+        shell: pwsh
+        env:
+          CI: true
+          ENV: ROW_QA
+          ENVIRONMENT: ${{ vars.ENVIRONMENT }}
+          TEST_PLAN: ${{ vars.TEST_PLAN }}
+          URL: ${{ secrets.URL }}
+          TEST_LABEL: ${{ secrets.TEST_LABEL }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          BFASUSERNAME: ${{ secrets.BFASUSERNAME }}
+          BFASPASSWORD: ${{ secrets.BFASPASSWORD }}
+          MOTORRADLEGALUSERNAME: ${{ secrets.MOTORRADLEGALUSERNAME }}
+          MOTORRADLEGALPASSWORD: ${{ secrets.MOTORRADLEGALPASSWORD }}
+
+        run: |
+          $specList = (
+            Get-Content cypress\AOSRE_22083_LUTests.txt |
+            ForEach-Object { $_.Trim() -replace '\\', '/' } |
+            Where-Object { $_ -ne "" }
+          ) -join ','
+
+          Write-Host "Running Cypress specs:"
+          Write-Host $specList
+
+          npx cypress run `
+            --env ENV=ROW_QA,CI=true `
+            --spec "$specList" `
+            --browser chrome
+
+      - name: Upload Cypress Screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots/**/*.png

@@ -1,0 +1,4 @@
+cypress\e2e\4-ROW_AOS-RE_rescue_operations\4.2-AOS-RE_additional_tests\AOSRE-5959_VerifyTheListOfOptionsUnderServiceTab .cy.js
+cypress\e2e\4-ROW_AOS-RE_rescue_operations\4.2-AOS-RE_additional_tests\AOSRE-5960_Verify Service tab.cy.js
+cypress\e2e\3-ROW_BMWPAY_payment\3.5-BMWPAY additional test\AOSRE_10429_AddingnewcreditcardinMyPaymentmethodspage.cy.js
+cypress\e2e\2-ROW_B2iUA_Functional_Tests\2.2_B2IUA-Additional_tests\AOSRE-5944_Login_Logout.cy.js
