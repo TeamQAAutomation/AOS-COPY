@@ -1,0 +1,40 @@
+name: Suite5_ROW_SU
+'on':
+  workflow_dispatch: null
+jobs:
+  e2e_tests:
+    name: Run End-to-End Tests
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Dependencies
+        run: npm install
+      - name: Read Test Spec File and Run Cypress Tests
+        run: >
+          # Read test spec names from file and format them correctly
+
+          $TEST_SPECS = (Get-Content cypress/Tests_ROW_SU_6.txt | ForEach-Object
+          { $_.Trim() }) -join '","'
+
+          $TEST_SPECS = "`"$TEST_SPECS`""
+
+
+          echo "Running tests: $TEST_SPECS"
+
+
+          # Run Cypress tests with environment variable
+
+          npx cypress run --env ENV=User_ROW_SU --spec=$TEST_SPECS --browser
+          chrome
+        shell: pwsh
+      - name: Upload Cypress Screenshots
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots/

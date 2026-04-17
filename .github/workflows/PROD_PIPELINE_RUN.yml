@@ -1,0 +1,68 @@
+name: Prod-Suite Final
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Select environment to run tests in'
+        required: true
+        default: 'PROD'
+        type: choice
+        options:
+          - PROD
+          - KR
+
+jobs:
+  e2e_tests:
+    name: Run E2E Tests (${{ github.event.inputs.environment }})
+    runs-on: ubuntu-latest
+    environment: ${{ github.event.inputs.environment }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Cypress Tests
+        shell: pwsh
+        env:
+          # Picks from GitHub Environment Secrets (PROD or KR)
+          CYPRESS_URL: ${{ secrets.CYPRESS_URL }}
+          CYPRESS_USERNAME: ${{ secrets.CYPRESS_USERNAME }}
+          CYPRESS_PASSWORD: ${{ secrets.CYPRESS_PASSWORD }}
+          CYPRESS_TEST_LABEL: ${{ secrets.CYPRESS_TEST_LABEL }}
+          CYPRESS_KR_URL: ${{ secrets.CYPRESS_KR_URL }}
+          CYPRESS_KR_USERNAME: ${{ secrets.CYPRESS_KR_USERNAME }}
+          CYPRESS_KR_PASSWORD: ${{ secrets.CYPRESS_KR_PASSWORD }}
+          CYPRESS_JIRA_SECRET: ${{ secrets.CYPRESS_JIRA_SECRET }}
+          
+        run: |
+          echo "===================================================="
+          echo "Running Cypress Tests on ${{ github.event.inputs.environment }} Environment"
+          echo "===================================================="
+
+          echo "Reading test specs..."
+          $TEST_SPECS = (Get-Content cypress/Prod_TestData_Final.txt | ForEach-Object { $_.Trim() }) -join ","
+          echo "Running specs: $TEST_SPECS"
+
+          echo "Base URL: $env:CYPRESS_URL"
+          npx cypress run `
+            --browser chrome `
+            --spec $TEST_SPECS `
+            --env ENV=${{ github.event.inputs.environment }},url=$env:CYPRESS_URL,Username=$env:CYPRESS_USERNAME,Password=$env:CYPRESS_PASSWORD,TEST_LABEL=$env:CYPRESS_TEST_LABEL,KR_url=$env:CYPRESS_KR_URL,KR_Username=$env:CYPRESS_KR_USERNAME,KR_Password=$env:CYPRESS_KR_PASSWORD,Jira_Secrets=$env:CYPRESS_JIRA_SECRET
+
+      - name: Upload Cypress Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-artifacts-${{ github.event.inputs.environment }}
+          path: |
+            cypress/screenshots/**/*.png
+            cypress/videos/**/*.mp4
