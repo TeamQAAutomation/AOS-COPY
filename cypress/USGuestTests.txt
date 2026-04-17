@@ -1,0 +1,2 @@
+cypress\e2e\AutomationPlanned_TESTS\USPortal_Smoketests\AOSRE_7231_AOS US_New Registration Request.cy.js
+cypress\e2e\AutomationPlanned_TESTS\USPortal_Smoketests\AOSRE_11712_AOS US Landing page before login.cy.js

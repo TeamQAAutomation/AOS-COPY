@@ -1,0 +1,12 @@
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9810_Electrical diagnosis and programming ticket for 1 year should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE-9809_Electrical diagnosis and programming ticket for 1 month should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9808_Electrical diagnosis and programming ticket for 1 week should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9807_Electrical diagnosis and programming ticket for 1 day should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9806_Doc. Research ticket for 1year should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9805_Doc. Research ticket for 1month should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9804_Doc. Research ticket for 1week should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9803_Doc. Research ticket for 1day should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC_TESTS\AOSRE_9739_EnsureorganizationrelatedinvoicesshoulddisplayontheMyInvoicespageForStandardUser.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9737_Doc. Research ticket for 1 hour should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9752_Electrical diagnosis and programming ticket for 1 hour should display on History Page For Standard User.cy.js
+cypress\e2e\Completed_TESTS\OIDC_TESTS\AOSRE_9742_EnsureOrganization-relatedPaymentMethodsshoulddisplayontheMyPaymentspageForStandardUser.cy.js

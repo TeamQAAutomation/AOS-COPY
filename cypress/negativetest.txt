@@ -1,0 +1,8 @@
+cypress\e2e\Negative Tests-26126\AOSRE-28516_MyRequests_validation.cy.js
+cypress\e2e\Negative Tests-26126\AOSRE-28517_Start_Page_EnterVIN_validation.cy.js
+cypress\e2e\Negative Tests-26126\AOSRE-28518_Login_Validations.cy.js
+cypress\e2e\Negative Tests-26126\AOSRE-28519_UserCreation_Validations.cy.js
+cypress\e2e\Negative Tests-26126\AOSRE-28520_verify_Card_validation.cy.js
+cypress\e2e\Negative Tests-26126\AOSRE-28521_Verify AOS Applications_SmartMaintenance _VIN_Validation.cy.js
+cypress\e2e\Negative Tests-26126\AOSRE-28522_Verify AOS Applications - PTI Data VIN Validation.cy.js
+cypress\e2e\Negative Tests-26126\AOSRE-28523_Verify AOS Applications_AIR _VIN_Validation.cy.js

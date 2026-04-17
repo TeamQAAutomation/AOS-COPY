@@ -1,0 +1,16 @@
+cypress\e2e\AOSRE-14575_SmokeTests\AOSRE_10583_CreatingSupportRequestForTheProblemType_Technicalquestion.cy.js
+cypress\e2e\AOSRE-14575_SmokeTests\AOSRE_10582_CreatingSupportRequestForTheProblemType_Payment & Invoicing.cy.js
+cypress\e2e\AOSRE-14575_SmokeTests\AOSRE_10581_CreatingSupportRequestForTheProblemType_Operation.cy.js
+cypress\e2e\AOSRE-14575_SmokeTests\AOSRE_10580_CreatingSupportRequestForTheProblemType_Installation.cy.js
+cypress\e2e\AOSRE-14575_SmokeTests\AOSRE_10579_CreatingSupportRequestForTheProblemType _Application Access.cy.js
+cypress\e2e\Completed_TESTS\OIDC_TESTS\AOSRE_10102_VerifyPEMSAdapterUnderServiceTab.cy.js
+cypress\e2e\Completed_TESTS\Regression\11785_TestCases\AOSRE_9259_GUIOfTheHomeScreenForAOS1.5.cy.js
+cypress\e2e\Completed_TESTS\Regression\AOSRE-8850 Electrical Diagnosis & Programming.cy.js
+cypress\e2e\Completed_TESTS\Regression\AOSRE-8849 Document research.cy.js
+cypress\e2e\AOSRE-13208_SmokeTests\AOSRE_5974_Myrequest.cy.js
+cypress\e2e\AOSRE-13208_SmokeTests\AOSRE_5973_Training Enquiry.cy.js
+cypress\e2e\AOSRE-13208_SmokeTests\AOSRE_5972_Technical Help Desk.cy.js
+cypress\e2e\AOSRE-13208_SmokeTests\AOSRE_5971_Support Request.cy.js
+cypress\e2e\AOSRE-13208_SmokeTests\AOSRE_5969_HelpTab_Overview.cy.js
+cypress\e2e\AOSRE-13208_SmokeTests\AOSRE_5968_options_under_Help tab.cy.js
+

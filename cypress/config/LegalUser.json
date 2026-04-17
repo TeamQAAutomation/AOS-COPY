@@ -1,0 +1,12 @@
+{
+  "url": "https://aos-i.bmwgroup.com/",
+
+    "TEST_PLAN": "AOSRE-26697",
+    "ENVIRONMENT":"QA2",
+    "LABEL":"QA_PIPELINE_RUN",
+    "TEST_LABEL":"||Legal_User||",
+    "Username": "pushparajb@achalasolutions.com",
+    "Password":""
+
+   
+}

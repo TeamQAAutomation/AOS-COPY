@@ -1,0 +1,6 @@
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9792_StdUser_MyPaymentMethodsPage_Unavailable.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9789_StdUser_MyInvoicesPage_Unavailable.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9788_StdUser_HistoryPage_Unavailable.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9728_MotorradTktPurchasewithstandarduser.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9855_Standard User Email Verification in THD.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9850_StdUser_EmailDisplays_In_PaymentDetailsPage.cy.js

@@ -1,0 +1,13 @@
+cypress\e2e\Completed_TESTS\Regression\AOSRE_5963_DiagnosticsArticles.cy.js
+cypress\e2e\Completed_TESTS\Regression\11785_TestCases\AOSRE_5960_Verify Service tab.cy.js
+cypress\e2e\Completed_TESTS\Regression\11785_TestCases\ASORE_5959_VerifyTheListOfOptionsUnderServiceTab .cy.js
+cypress\e2e\Completed_TESTS\Regression\AOSRE_5958_Applications.cy.js
+cypress\e2e\AOSRE-13208_SmokeTests\AOSRE_5944_Login_Logout.cy.js
+cypress\e2e\Completed_TESTS\Regression\11785_TestCases\AOSRE-11776 Overview of the Start page.cy.js
+cypress\e2e\AOSRE-14575_SmokeTests\AOSRE_10685_CreatingSupportRequestForTheProblemType_Usermanagement.cy.js
+cypress\e2e\AOSRE-14575_SmokeTests\AOSRE_10683_CreatingSupportRequestForTheProblemType _Organisation administration.cy.js
+cypress\e2e\AOSRE-14575_SmokeTests\AOSRE_10680_CreatingSupportRequestForTheProblemType_TechnicalProblem.cy.js
+cypress\e2e\AOSRE-14575_SmokeTests\AOSRE_10679_CreatingSupportRequestForTheProblemType _General Enquiry.cy.js
+cypress\e2e\New_Automation_tests\AOSRE_5976_Verify the list of options  under CEN Navigation tab .cy.js
+cypress\e2e\AOSRE-15611_tests\AOSRE_10585_Verify able to add comment in support request ticket from MyRequest.cy.js
+cypress\e2e\AOSRE-15611_tests\AOSRE_10584_Verify created support request ticket is displaying in My-Request page.cy.js

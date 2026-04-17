@@ -1,0 +1,8 @@
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE-11665_KR_Login_Logout.cy.js
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE_11707__AOS_KR_ListOfOptionsUnderApplications.cy.js
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE_11666_AOS_KR_Respective Page Loaded by opening of each Menu under Start tab.cy.js
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE_11710_AOS_KR_Verify the list of options under Help tab.cy.js
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE_11711_AOS_KR_Verify Help tab Outline content.cy.js
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE_11723_AOS_KR_Support Request Creation.cy.js
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE_11728_AOS_KR_Request to the Technical Support Department.cy.js
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE_11735_AOS_KR_Verify My Inquiry Details.cy.js

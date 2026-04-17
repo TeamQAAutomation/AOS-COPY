@@ -1,0 +1,3 @@
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE_7409_AOS_KR_Overview of AOS Landing page.cy.js
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE-11758_Registration.cy.js
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE_11723_AOS_KR_Support Request Creation.cy.js

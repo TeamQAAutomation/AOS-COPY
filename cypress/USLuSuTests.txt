@@ -1,0 +1,7 @@
+cypress\e2e\AutomationPlanned_TESTS\USPortal_Smoketests\AOSRE_11664_AOS US_ Login & Logout.cy.js
+cypress\e2e\AutomationPlanned_TESTS\USPortal_Smoketests\AOSRE_7226_AOS US_Verify the list of options under Application tab.cy.js
+cypress\e2e\AutomationPlanned_TESTS\USPortal_Smoketests\AOSRE_11733_AOS US_GUI of the Home Screen for AOS 1.5.cy.js
+cypress\e2e\AutomationPlanned_TESTS\USPortal_Smoketests\AOSRE_11725_AOS US_SupportRequestCreation.cy.js
+cypress\e2e\AutomationPlanned_TESTS\USPortal_Smoketests\AOSRE_11726_AOSUS_VerifyMyRequestDetails.cy.js
+cypress\e2e\AutomationPlanned_TESTS\USPortal_Smoketests\AOSRE_7228_AOS US_Verify the list of options under Help tab.cy.js
+cypress\e2e\AutomationPlanned_TESTS\USPortal_Smoketests\AOSRE_7229_AOS US_Verify Help tab Overview content.cy.js

@@ -1,0 +1,1 @@
+cypress\e2e\AutomationPlanned_TESTS\KRPortal_Smoketets\AOSRE-11759_Admin_Approval.cy.js

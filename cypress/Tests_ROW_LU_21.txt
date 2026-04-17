@@ -1,0 +1,22 @@
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9751_Electrical diagnosis&programming ticket for 1 hour should display on HistoryPage For LegalUser.cy.js
+cypress\e2e\Completed_TESTS\OIDC_TESTS\AOSRE_9740_EnsureorganizationRelatedpaymentmethodscardsshouldDisplayOnTheMyPaymentspageForLegalRepresentativeUser.cy.js
+cypress\e2e\Completed_TESTS\OIDC_TESTS\AOSRE_9738_Ensureorganization-relatedinvoicesshoulddisplayontheMyInvoicespageForLegalRepresentativeUser.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9736_Doc. Research ticket for 1 hour should display on History Page For Legal Representative User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9731_Access To MyPaymentMethodsFor_LegalUSer.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9730_Access To MyInvoices Legaluser.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9729_Access To History page for legaluser.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9726_MotorradTktPurchasewithLegaluser.cy.js
+cypress\e2e\Completed_TESTS\Regression\11785_TestCases\AOSRE_5955_StartTAB_History.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9853_LegalUser Email Verification in THD.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9848_LegalRepUser_EmailDisplays_In_PaymentDetailsPage.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9802_Electrical diagnosis and programming ticket for 1 year should display on History Page For Legal Representative User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9801_Electrical diagnosis and programming ticket for 1 month should display on History Page For Legal Representative User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9800_Electrical diagnosis and programming ticket for 1 week should display on History Page For Legal Representative User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9799_Electrical diagnosis and programming ticket for 1 day should display on History Page For Legal Representative User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9798_Information Research ticket for 1 year should display on History Page for LegalRep User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9797_Information Research ticket for 1 month should display on History Page for LegalRep User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9796_Information Research ticket for 1 week should display on History Page for LegalRep User.cy.js
+cypress\e2e\Completed_TESTS\OIDC\AOSRE_9795_Information Research ticket for 1 day should display on History Page for LegalRep User.cy.js
+cypress\e2e\AOSRE-13208_SmokeTests\AOSRE_6515_StartTab_DetailedViewOfTheOngoingticketLegalRepresentative.cy.js
+cypress\e2e\Completed_TESTS\OIDC_TESTS\AOSRE_6514_Start Tab_DetailedViewOfTheMyInvoicesWithLegalRepresentativeUser.cy.js
+    
